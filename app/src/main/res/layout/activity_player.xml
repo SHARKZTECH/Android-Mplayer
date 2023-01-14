@@ -24,6 +24,7 @@
         android:textAlignment="center"
         android:textStyle="italic"/>
     <ImageView
+        android:id="@+id/img"
         android:layout_width="250dp"
         android:layout_height="250dp"
         android:src="@drawable/p"
@@ -76,7 +77,7 @@
             android:id="@+id/playBtn"
             android:layout_width="50dp"
             android:layout_height="50dp"
-            android:background="@drawable/ic_play"/>
+            android:background="@drawable/ic_pause"/>
         <Button
             android:id="@+id/nextBtn"
             android:layout_width="50dp"
@@ -92,6 +93,7 @@
     <com.chibde.visualizer.SquareBarVisualizer
         android:id="@+id/visualizer"
         android:layout_width="match_parent"
-        android:layout_height="50dp"/>
+        android:layout_height="50dp"
+        android:layout_marginTop="15dp"/>
 
 </LinearLayout>
