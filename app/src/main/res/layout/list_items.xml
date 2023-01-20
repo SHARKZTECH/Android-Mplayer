@@ -13,7 +13,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:padding="8dp"
-        android:background="@drawable/list_bg">
+        >
         <ImageView
             android:src="@drawable/ic_music"
             android:layout_width="45dp"
